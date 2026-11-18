@@ -46,6 +46,13 @@ nav.lang a{border:1px solid var(--line);border-radius:6px;padding:8px 14px;text-
 <p><a href="https://github.com/raven-deadwire/SpectralForge-Chimera-Amp-Matrix/releases/download/v1.4.1-beta.1/MANUAL.html">Manual (EN/DE/KO)</a> · <a href="https://github.com/raven-deadwire/SpectralForge-Chimera-Amp-Matrix/releases/tag/v1.4.1-beta.1">Release notes and checksums</a></p>
 <p>Close Chimera and your DAW before installing. Projects, presets and personal IRs are kept.</p>
 
+<h2>OBS filter on its own</h2>
+<p>The installers above already offer the OBS Studio filter as an optional item (on Windows it is part of the Windows installer). If you only want to add the filter, these packages install it on its own: close OBS, then run <code>./install.sh</code> from the unpacked folder. The Chimera VST3 must be installed.</p>
+<div class="dl">
+<a href="https://github.com/raven-deadwire/SpectralForge-Chimera-Amp-Matrix/releases/download/v1.4.1-beta.1/chimera-obs-macos-universal-5bbc2715df.zip">OBS filter for macOS (Universal, macOS 12+)<small>chimera-obs-macos-universal-5bbc2715df.zip</small></a><a href="https://github.com/raven-deadwire/SpectralForge-Chimera-Amp-Matrix/releases/download/v1.4.1-beta.1/chimera-obs-linux-x86_64-5bbc2715df.tar.gz">OBS filter for Linux x86_64<small>chimera-obs-linux-x86_64-5bbc2715df.tar.gz</small></a>
+</div>
+<p>Linux needs OBS from your distribution's packages (Flatpak and Snap are not supported) and glibc 2.38 or newer; the editor window needs X11 (XWayland under Wayland). The macOS module is not notarized yet. <a href="https://github.com/raven-deadwire/SpectralForge-Chimera-Amp-Matrix/releases/download/v1.4.1-beta.1/chimera-obs-SHA256SUMS.txt">Checksums</a></p>
+
 <h2>License period</h2>
 <div class="lic"><p>This beta is licensed for use until <strong>2027-05-31 23:59 KST</strong> (2027-05-31 14:59 UTC). SETTINGS shows the exact time left, and a warning appears 14 days before.</p><p>Instances already open keep running after expiry. Instances opened after expiry keep their state with the output muted.</p><p>A verified <strong>beta tester code</strong> (SETTINGS → <em>Enter beta tester code...</em>) lifts the expiry on that computer with no end date.</p></div>
 
@@ -57,7 +64,7 @@ nav.lang a{border:1px solid var(--line);border-radius:6px;padding:8px 14px;text-
 
 <h2>Screenshots</h2>
 <div class="shots">
-<figure><img src="img/matrix-amps.webp" width="1180" height="780" loading="lazy" alt="Matrix mode: three amp lanes"><figcaption>Matrix mode: three amp lanes</figcaption></figure><figure><img src="img/cabinet-room.webp" width="1180" height="780" loading="lazy" alt="Cabinet room"><figcaption>Cabinet room</figcaption></figure><figure><img src="img/post-rack.webp" width="1180" height="780" loading="lazy" alt="POST rack"><figcaption>POST rack</figcaption></figure><figure><img src="img/synth.webp" width="1180" height="780" loading="lazy" alt="SYNTH page"><figcaption>SYNTH page</figcaption></figure>
+<figure><img src="img/matrix-amps.webp" width="1180" height="780" loading="lazy" alt="Matrix mode: three amp lanes"><figcaption>Matrix mode: three amp lanes</figcaption></figure><figure><img src="img/cabinet-room.webp" width="1000" height="648" loading="lazy" alt="Cabinet room"><figcaption>Cabinet room</figcaption></figure><figure><img src="img/post-rack.webp" width="1180" height="780" loading="lazy" alt="POST rack"><figcaption>POST rack</figcaption></figure><figure><img src="img/synth.webp" width="1180" height="780" loading="lazy" alt="SYNTH page"><figcaption>SYNTH page</figcaption></figure>
 </div>
 <p><small>Captured from the 1.4.0-beta.1 source (Linux, 100%).</small></p>
 
